@@ -11229,8 +11229,50 @@ body {
   background-image : url(../marker.png);
   background-size: cover;
   display: inline-block;
-  height: 40px;
-  width: 40px;
+  height: 38px;
+  width: 38px;
+}
+.tooltip-txt{
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+
+}
+.marker-btn:hover .tooltip-txt {
+  visibility: visible;
+}
+#tooltip-txt-1 h3{
+  font-size: 1rem;
+}
+#tooltip-txt-1{
+  right: 50%;
+  bottom: 80%;
+}
+#tooltip-txt-2 h3{
+  font-size: 1rem;
+}
+#tooltip-txt-2{
+  left: 70%;
+  top: 65%;
+}
+#tooltip-txt-3 h3{
+  font-size: 0.8rem;
+}
+#tooltip-txt-3{
+  right: 50%;
+  bottom: 80%;
+}
+#tooltip-txt-4 h3{
+  font-size: 0.9rem;
+}
+#tooltip-txt-4{
+  left: 65%;
+  bottom: 80%;
 }
 #marker-1-btn{
   bottom: 13%;
