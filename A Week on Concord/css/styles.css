@@ -11206,18 +11206,44 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  position: relative;
 }
 .map-image{
   width: 60%;
   height: 90%;
 }
 .marker-btn{
-  border-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+
 }
 .marker-icon{
   background-image : url(../marker.png);
   background-size: cover;
   display: inline-block;
-  height: 60px;
-  width: 60px;
+  height: 40px;
+  width: 40px;
+}
+#marker-1-btn{
+  bottom: 13%;
+  left: 38%;
+}
+#marker-2-btn{
+  bottom: 17%;
+  left: 41.5%;
+}
+#marker-3-btn{
+  bottom: 23%;
+  left: 41.5%;
+}
+#marker-4-btn{
+  bottom: 27%;
+  left: 43%;
 }
