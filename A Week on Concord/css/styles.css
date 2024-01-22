@@ -11062,7 +11062,12 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
+.icon {
+  padding-bottom: 1rem;
+}
+.mdl-btn {
+  background-color: #64a19d;
+}
 .masthead {
   position: relative;
   width: 100%;
@@ -11208,6 +11213,9 @@ body {
   align-items: center;
   height: 100vh;
   position: relative;
+}
+.map-section{
+  background-color: #202020;
 }
 .map-image{
   width: 60%;
